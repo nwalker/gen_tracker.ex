@@ -2,7 +2,7 @@ defmodule GenTracker.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :gen_tracker,
+    [app: :gen_tracker_ex,
      version: "0.0.1",
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
@@ -14,7 +14,7 @@ defmodule GenTracker.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: []]
   end
 
   # Dependencies can be Hex packages:
@@ -27,6 +27,6 @@ defmodule GenTracker.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:gen_tracker, github: "erlyvideo/gen_tracker", ref: "dd7139098ac"}]
   end
 end

@@ -1,0 +1,1 @@
+%{"gen_tracker": {:git, "https://github.com/erlyvideo/gen_tracker.git", "dd7139098ac25ed13e42d79b3225a4d141b6c33b", [ref: "dd7139098ac"]}}
